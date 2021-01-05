@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    position: relative;
+    font-family: cursive;
+    
+}
+nav .logo{
+position: absolute;
+top: 0%;
+left: 50px;
+}
+nav .logo img{
+width: 180px;
+}
+nav ul{
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    list-style: none;
+    font-size: 20px;
+
+}
+nav ul li{
+display: inline-block;
+color: aliceblue;
+margin-top: 35px;
+padding-left:  40px;
+cursor: pointer;
+}
+
+
+.bg{
+    position: absolute;
+      top: 0%;
+      left: 0%;
+    background-color: #472383;
+    width: 100%;
+    height: 90vh;
+    z-index: -1;
+}
+.bg .gl{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 180px;
+}
+.bg .choc{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 360px;
+}
+.bg .content{
+    width: 38%;
+    position: absolute;
+    right: 70px;
+    bottom: 130px;
+    z-index: 1;
+}
+.content h1{
+    color: gold;
+
+}
+.content p{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content button{
+    background: transparent;
+    border: 2px solid gold;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    color: gold;
+    font-size: 20px;
+    font-weight: ;
+    font-family: cursive;
+}
+footer{
+position: absolute;
+top: 95vh;
+width: 100%;
+height: 10vh;
+}
+footer .side1{
+padding-left: 20px;
+text-align: center;
+}
+footer .icons ul{
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+ 
+}
+footer .icons ul li{
+    display: inline-block;
+    margin-left: 5px;
+}
+footer .icons img{
+
+    width: 50px;
+}
